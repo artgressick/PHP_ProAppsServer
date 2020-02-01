@@ -1,0 +1,1 @@
+<?php # Script 1.0 - Redirector	// Check for a cookie that has the Event ID from the database.		if (!isset($_COOKIE['idEvent'])) {		header ("Location: loadevent.php");		exit(); //Quit the script.	}?>

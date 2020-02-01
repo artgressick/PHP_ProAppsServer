@@ -1,0 +1,1 @@
+<?php	session_start(); //Start the session.	//If no session is present then redirec the user.		if (!isset($_SESSION['idOK'])) {		header ("Location: logon.php");		exit(); //Quit the script.	}?>
